@@ -1,0 +1,87 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: bisque;
+}
+
+.header{
+    background-color: rgb(30, 0, 255);
+    height: 130px;
+}
+
+.header h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.container{
+    background-color: rgb(244, 255, 127);
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 5px;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.nav li{
+    float: left;
+    list-style: none;
+}
+ .nav li a{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    font-weight: bold;
+    color: blue;
+ }
+
+ .nav li a:hover{
+    background-color: rgb(255, 127, 200);
+    color: rgb(0, 30, 255);
+ }
+
+ .gambar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(119, 255, 34);
+    height: 400px;
+    width: 70%;
+    margin-left: 200px;
+    border-radius: 15px;
+ }
+
+ .b{
+    font-size: 50px;
+    color: purple;
+ }
+
+.koleksi{
+    border-style: solid;
+    border-width: medium;
+    width: 31%;
+    float: left;
+}
+
+.koleksi img{
+    height: 150px;
+}
+
+.promo{
+    background-color: yellow;
+    position: absolute;
+    margin-left: -50px;
+    left: 40%;
+    width: 60%;
+    height: 49%;
+    padding: 10px;
+}
+
+ol li a{
+    color: black;
+}
